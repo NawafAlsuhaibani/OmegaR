@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.omegar"
+    android:screenOrientation="portrait">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:name=".NonActivityClasses.GlobalClass"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".AdminPortal.Showdata"></activity>
+        <activity android:name=".AdminPortal.AdminPortalMeals" />
+        <activity android:name=".AdminPortal.AdminPortal" />
+        <activity android:name=".updateprofile" />
+        <activity android:name=".History.pickDateHistory" />
+        <activity android:name=".History.CustomeHistory" />
+        <activity
+            android:name=".mealType"
+            android:theme="@style/AppTheme.multiMealOverlay" />
+        <activity
+            android:name=".CommonFoodsPopUp"
+            android:theme="@style/PopUpOverlay" />
+        <activity
+            android:name=".MultipleFoodsPopup"
+            android:theme="@style/AppTheme.multiMealOverlay" />
+        <activity android:name=".CommonFoods" />
+        <activity android:name=".MealinputQuery.SearchViewActivity" />
+        <activity android:name=".History.History" />
+        <activity android:name=".report.CustomeDatesGraph" />
+        <activity android:name=".report.activityReport" />
+        <activity android:name=".report.MainActivityOption" />
+        <activity android:name=".MealInput2" />
+        <activity android:name=".MealInput" />
+        <activity android:name=".Homepage" />
+        <activity android:name=".login" />
+        <activity android:name=".Profile" />
+        <activity android:name=".TermsAndConditions" />
+        <activity android:name=".mealReport" />
+        <activity android:name=".navigation" />
+        <activity android:name=".Register" />
+        <activity android:name=".Guide" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

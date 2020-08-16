@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_mealHistory"
+            android:icon="@drawable/mealhistory"
+            android:title="@string/Report" />
+        <item
+            android:id="@+id/nav_History"
+            android:icon="@drawable/mealhistory"
+            android:title="@string/History" />
+        <item
+            android:id="@+id/nav_CommonFoods"
+            android:icon="@drawable/education"
+            android:title="@string/common_foods" />
+        <item
+            android:id="@+id/nav_Education"
+            android:icon="@drawable/education"
+            android:title="@string/Education" />
+        <item
+            android:id="@+id/nav_TermsAndConditions"
+            android:icon="@drawable/warning"
+            android:title="@string/TermsAndConditions" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="@string/Logout" />
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/logout"
+            android:title="@string/Adminpage"
+            android:visible="false" />
+    </group>
+
+</menu>
